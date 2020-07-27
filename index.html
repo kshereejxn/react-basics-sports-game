@@ -7,19 +7,18 @@
     <title>React Sports Game</title>
 </head>
 <body>
-    <!-- include an element for ReactDOM to attach our React-generated elements to -->
+    
     <div id="root"></div>
 
-    <!-- include React and ReactDOM -->
+   
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    <!-- include Babel standalone so we can process JSX in React.createElement stuff -->
     <script crossorigin src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
-    <!-- include our JS+JSX for the React Appliccation -->
+   
 <script type="text/babel">
 
-// An App component under which all other components will be added
+
 function App (props) {
   return (
     <div>
@@ -31,7 +30,7 @@ function App (props) {
 
 
 
-// Render the App
+
 ReactDOM.render(
   <App />,
   document.getElementById('root')
