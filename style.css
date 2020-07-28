@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: silver;
+    background-color: rgba(192, 192, 192, 0.623);
 }
 
 .versus {
@@ -38,8 +38,13 @@ body {
 }
 
 button {
-    background-color: tomato;
+    background-color: rgb(255, 71, 230);
     width: 75px;
     height: 40px;
+    border-radius: 50pc;
+}
+
+.Identity {
+    border: yellowgreen dotted 10px;
 }
 /*followed along with Davey video*/
