@@ -3,10 +3,8 @@
 }
 
 body {
-    padding: 2px;
-    margin: 2px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    background-color: silver;
 }
 
 .versus {
@@ -22,12 +20,26 @@ body {
 }
 
 .Team img {
-    max-width: 250px;
+    width: 200px;
+    height: 200px;
 }
 
 .Game {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-style: normal;
+}
+
+.Stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button {
+    background-color: tomato;
+    width: 75px;
+    height: 40px;
 }
 /*followed along with Davey video*/
