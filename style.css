@@ -31,7 +31,7 @@ body {
     font-style: normal;
 }
 
-.Stats {
+.stats {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -44,7 +44,7 @@ button {
     border-radius: 50pc;
 }
 
-.Identity {
+.identity {
     border: yellowgreen dotted 10px;
 }
 /*followed along with Davey video*/
