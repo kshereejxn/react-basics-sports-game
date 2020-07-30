@@ -47,4 +47,17 @@ button {
 .identity {
     border: yellowgreen dotted 10px;
 }
+
+.ScoreBoard {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(174, 118, 230);
+}
+
+.ScoreBoard h3 {
+    margin: 0;
+}
+
+
 /*followed along with Davey video*/
